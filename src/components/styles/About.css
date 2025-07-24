@@ -69,6 +69,7 @@
 
   .about-text {
     width: 100%;
+    text-align: center;
   }
 
   .about-title {
@@ -79,12 +80,8 @@
     font-size: 1rem;
   }
 
-  .about-content {
-    padding: 0 1rem;
-  }
-
   .about-image {
-    margin-top: 2rem;
+    margin-top: 1rem;
   }
 
   .about-image img {
