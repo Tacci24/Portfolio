@@ -81,10 +81,11 @@
 @media (max-width: 768px) {
   .hero {
     flex-direction: column-reverse;
-    text-align: left;
+    text-align: center;
   }
 
   .hero-content {
+    width: 100%;
     text-align: centre;
   }
 
