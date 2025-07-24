@@ -21,7 +21,7 @@ function Projects() {
             </a>
             A food and gas delivery platform.
           </li>
-          
+
           <li className="projects-item">
             <a href="https://portfolio-5k2q.vercel.app/" target="_blank">
               <strong>Portfolio Site</strong>
@@ -44,7 +44,10 @@ function Projects() {
           </li>
 
           <li className="projects-item">
-            <a href="https://food-delivery-eight-puce.vercel.app/" target="_blank">
+            <a
+              href="https://food-delivery-eight-puce.vercel.app/"
+              target="_blank"
+            >
               <strong>Food Delivery</strong>
             </a>
             A food delivery website that shows variety of foods, prices and
@@ -52,7 +55,10 @@ function Projects() {
           </li>
 
           <li className="projects-item">
-            <a href="https://assembly-endgame-rouge.vercel.app/" target="_blank">
+            <a
+              href="https://assembly-endgame-rouge.vercel.app/"
+              target="_blank"
+            >
               <strong>Assembly Endgame</strong>
             </a>
             A game that letsyou guess letter to construct a word, on anywrong
@@ -60,11 +66,26 @@ function Projects() {
           </li>
 
           <li className="projects-item">
-            <a href="https://recipe-generator-three-sand.vercel.app/" target="_blank">
+            <a
+              href="https://recipe-generator-three-sand.vercel.app/"
+              target="_blank"
+            >
               <strong>Recipe Generator</strong>
             </a>
             A recipe generating website, generates a recipe depending on the
             ingredients fed into it.
+          </li>
+
+          <li className="projects-item">
+            <a
+              href="https://travel-journal-beta-seven.vercel.app/"
+              target="_blank"
+            >
+              <strong>Travel Journal</strong>
+            </a>
+            A travel journal, keeping records of the visited places, their
+            geographical location and perid of visitation with a description of
+            the place.
           </li>
         </ul>
       </div>
