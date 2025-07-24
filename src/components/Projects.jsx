@@ -84,7 +84,7 @@ function Projects() {
               <strong>Travel Journal</strong>
             </a>
             A travel journal, keeping records of the visited places, their
-            geographical location and perid of visitation with a description of
+            geographical location and period of visitation with a description of
             the place.
           </li>
         </ul>
