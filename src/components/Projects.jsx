@@ -23,7 +23,7 @@ function Projects() {
           </li>
           
           <li className="projects-item">
-            <a href="" target="_blank">
+            <a href="https://portfolio-5k2q.vercel.app/" target="_blank">
               <strong>Portfolio Site</strong>
             </a>
             The very one you're viewing now!
