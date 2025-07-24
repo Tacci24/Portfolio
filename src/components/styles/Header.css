@@ -10,6 +10,7 @@ header {
   align-items: center;
   justify-content: space-between;
   border-bottom: 1px solid #ddd;
+  flex-wrap: wrap;
 }
 
 .header {
@@ -21,10 +22,11 @@ header {
 .nav ul {
   list-style: none;
   padding: 0;
+  display: flex;
+  margin: 0;
 }
 
 .nav li {
-  display: inline;
   margin: 0 15px;
 }
 
@@ -40,3 +42,29 @@ header {
   text-decoration: none;
 }
 
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+    align-items: flex-start;
+  }
+
+  .header {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .nav ul {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .nav li {
+    margin: 10px 0;
+  }
+
+  .nav a {
+    font-size: 18px;
+  }
+}
