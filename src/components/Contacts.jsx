@@ -28,7 +28,7 @@ function Contact() {
           </a>
         </div>
 
-        <div className="contact-item">v
+        <div className="contact-item">
           <span>Phone:</span>
           <a href="tel:+254793811204">+254 793 811 204</a>
         </div>

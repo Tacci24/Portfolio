@@ -33,7 +33,7 @@ function Projects() {
             <a href="https://tenzies-one-liard.vercel.app/" target="_blank">
               <strong>Tenzies Game</strong>
             </a>
-            A game of tenzies.
+            A game of tenzies. Responsive and interactive.
           </li>
 
           <li className="projects-item">
