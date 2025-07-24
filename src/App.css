@@ -1,0 +1,10 @@
+* {
+  box-sizing: border-box;
+  margin: auto;
+  max-width: 100%;
+  font-family:'Poppins', sans-serif;
+}
+/* The default value for margin is 0 for all sides */
+html {
+  scroll-behavior: smooth;
+}
