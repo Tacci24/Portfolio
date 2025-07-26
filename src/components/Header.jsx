@@ -1,24 +1,45 @@
 import React from "react";
+import { useState } from "react";
 import "./styles/Header.css";
 
 function Header() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+
+  const closeMenu = () => {
+    setMenuOpen(false);
+  };
+
   return (
     <header>
       <h1 className="header">Gideon Mwinami</h1>
 
-      <nav className="nav">
+      <button className="menu-toggle" onClick={toggleMenu}>
+        ☰
+      </button>
+
+      <nav className={`nav ${menuOpen ? "open" : ""}`}>
         <ul>
           <li>
-            <a href="#hero">Home</a>
+            <a href="#hero" onClick={closeMenu}>
+              Home
+            </a>
           </li>
           <li>
-            <a href="#about">About</a>
+            <a href="#about" onClick={closeMenu}>
+              About
+            </a>
           </li>
           <li>
-            <a href="#projects">Projects</a>
+            <a href="#projects" onClick={closeMenu}>
+              Projects
+            </a>
           </li>
           <li>
-            <a href="#contact" c>
+            <a href="#contact" onClick={closeMenu}>
               Contact Gideon
             </a>
           </li>
